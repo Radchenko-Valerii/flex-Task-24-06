@@ -59,6 +59,7 @@ h1{
 
 .second-section{
   padding: 100px 25px;
+  color: rgb(49, 49, 49);
   background-color: #EAEAEA;
   min-height: 300px;
   display: flex;
@@ -71,5 +72,40 @@ h2{
   font-size: 27px;
   font-weight: bold;
   padding-bottom: 25px;
+text-align: center;
+}
+
+
+.third-section{
+  display: flex;
+  padding: 35px 500px 17px 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card{
+  background-color: #EAEAEA;
+  min-height: 450px;
+  max-width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+img{
+  width: 272px;
+  height: 180px;
+}
+ 
+.card-header{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.fourth-section{
+  background-color: #EAEAEA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
