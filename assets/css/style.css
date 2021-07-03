@@ -1,8 +1,5 @@
 *{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -26,12 +23,8 @@ text-align: center;
   justify-content: space-evenly;
   padding: 100px 25px;
   align-items: center;
-
 }
 
-header{
-  align-self: center;
-}
 
 h1{
   font-size: 35px;
@@ -45,6 +38,7 @@ h1{
   padding: 15px 30px;
   max-width: 140px;
   border: 1px solid white;
+  border-radius: 5px;
   background-color: rgb(49, 49, 49);
   color: white;
   transition-property: all;
@@ -57,8 +51,8 @@ h1{
   border: 1 px solid rgb(49, 49, 49);
 }
 
-.second-section{
-  padding: 100px 25px;
+.second-section, .fourth-section{
+  padding: 20px 25px;
   color: rgb(49, 49, 49);
   background-color: #EAEAEA;
   min-height: 300px;
@@ -71,19 +65,26 @@ h1{
 h2{
   font-size: 27px;
   font-weight: bold;
-  padding-bottom: 25px;
 text-align: center;
 }
 
-
-.third-section{
+.third-section-wrapper{
   display: flex;
-  padding: 35px 500px 17px 500px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
+.third-section{
+  display: flex;
+  padding: 35px 20px 35px 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
 .card{
+  margin-top: 10px;
   background-color: #EAEAEA;
   min-height: 450px;
   max-width: 272px;
@@ -102,10 +103,47 @@ img{
   padding-bottom: 50px;
 }
 
-.fourth-section{
-  background-color: #EAEAEA;
+.column{
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
+.columns{
+  width: 49%;
+  padding: 35px;
+  color: #EAEAEA;
+}
+
+.blue{
+  background-color: #2690D4;
+}
+
+.columns-header{
+  padding: 25px 0 25px 0;
+}
+
+.columns-text, .e-mail{
+  padding: 18px 0 18px 0;
+}
+
+.link{
+  text-decoration: none;
+  color: #2690D4;
+  font-size: 18px;
+}
+
+.project-link{
+  width: 240px;
+}
+.project-name, .link{
+  display: inline-block;
+}
+
+footer{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #EAEAEA;
+  padding: 30px;
+}
