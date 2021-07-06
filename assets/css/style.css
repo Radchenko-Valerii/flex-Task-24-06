@@ -29,9 +29,11 @@ text-align: center;
 h1{
   font-size: 35px;
   font-weight: bolder;
+  text-align: center;
 }
 
 .btn{
+  margin-top: 10px;
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
@@ -105,9 +107,11 @@ img{
 
 .column{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .columns{
+  min-width: 320px;
   width: 49%;
   padding: 35px;
   color: #EAEAEA;
